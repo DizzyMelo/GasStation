@@ -32,4 +32,22 @@ fun main(args: Array<String>) {
         total += Metrics.AMOUNT_SPEED_RATIO
         println(String.format("%.2f", ( total)) + " gal" + " - $" + String.format("%.2f", (gas.price * total)))
     }
+
+    Utils.listPaymentMethods()
+    var payment: PaymentType? = null
+    while (payment == null) {
+        val op = Utils.askForInput("choose payment option")
+        var optionId = -1
+        if (op.isNotEmpty()) {
+            optionId = op.toInt()
+        }
+        payment = PaymentType.values()[(optionId - 1)]
+    }
+
+    val op = Utils.askForInput("Do you want a receipt y/n")
+    when (op) {
+        "y" -> println("Print receipt")
+        "n" -> println("Don't print receipt")
+        else -> println("Invalid Option")
+    }
 }
