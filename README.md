@@ -11,9 +11,9 @@ This software emulates gas station pumper machine. I is a console-based applicat
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* IntelliJ IDEA Community Edition 2021.3.1
+* Kotlin
+* Maven
 
 # Useful Websites
 
