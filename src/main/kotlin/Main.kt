@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     var menu = CustomMenu()
-    menu.generateMenu("welcome to maverik")
+    menu.generateMenu("welcome to Gas")
 
     print("PRESS ENTER TO CONTINUE: ")
     readLine()
@@ -50,4 +50,6 @@ fun main(args: Array<String>) {
         "n" -> println("Don't print receipt")
         else -> println("Invalid Option")
     }
+
+    println("Thank you for coming!")
 }

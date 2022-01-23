@@ -1,29 +1,23 @@
 # Overview
-This software emulates gas station pumper machine. I is a console-based application built with Kotlin. It demonstrates the fundamentals of any programming language, including variables, consitionals, loops, functions, classes etc.
+This software emulates gas station pumper machine. It is a console-based application built with Kotlin. It demonstrates the fundamentals of any programming language, including variables, consitionals, loops, functions, classes etc.
 
-{Provide a description the software that you wrote to demonstrate the Kotlin language.}
+This program was created as a mean to consolidate my knowledge about the Kotlin programming language.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Gas Station with Kotlin](https://youtu.be/-TYg-sXErUk)
 
 # Development Environment
 
 * IntelliJ IDEA Community Edition 2021.3.1
-* Kotlin
+* Kotlin (kotlinc-jvm 1.6.10 (JRE 17.0.1+12-LTS-39))
 * Maven
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Kotlin Documentation](https://kotlinlang.org/)
-* [Web Site Name](http://url.link.goes.here)
+* [Developers Android](https://developer.android.com/kotlin/learn)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Implement the print receipt option
+* Validate price entered
+* Put the main program flow in a loop
