@@ -3,7 +3,7 @@ This software emulates gas station pumper machine. It is a console-based applica
 
 This program was created as a mean to consolidate my knowledge about the Kotlin programming language.
 
-[Gas Station with Kotlin](https://youtu.be/-TYg-sXErUk)
+You can watch the software demo here: [Software Demo Video](https://youtu.be/-TYg-sXErUk)
 
 # Development Environment
 
